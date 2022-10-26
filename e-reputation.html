@@ -1,19 +1,105 @@
 <!doctype html>
-<html>
+<html lang="en">
+    <title>E-Reputation</title>
+
     <head>
         <link href="e-reputation.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Basil</h1>
+        <h1><img class="basil" src="basil.png">
+            <span class="titre">E-Reputation</span>
+            <img class="basil" src="basil.png">
+        </h1>
 
         <nav>
-            <button><a href="home.html">Home</a></button>
-            <button><a href="personnal">Personnal Presentation</a></button>
-            <button><a href="hobbies.html">My Hobbies</a></button>
+            <button><a class="selector" href="home.html">Home</a></button>
+            <button><a class="selector" href="personnal.html">Personnal Presentation</a></button>
+            <button><a class="selector" href="hobbies.html">My Hobbies</a></button>
         </nav>
 
         <div>
+            <p class="terminal">
+                <span class="user">basilelt@Basiles-MacBook-Air facebook-delete %</span> go run deleter.go 
+                Waiting 100 ms before search and delete requests.
+                ? Please type your email ******************
+                ? Please type your password ***************
+                Attempting Login...
+                Logged in with user: Basile Le Thiec (profile ID: ***********)
+                ? Which years 
+                ? Which months 
+                ? Which categories  [Use arrows to move, space to select, <right> to all, <left> to none, type to filter]
+                > [ ]  All App Activity
+                  [ ]  Comments
+                  [ ]  Event Invitations
+                  [ ]  Event Responses
+                  [ ]  Group Posts and Comments
+                  [ ]  Group Reactions
+                  [ ]  Instagram Photos and Videos
+                  [ ]  Likes and Reactions
+                  [ ]  Others' Posts To Your Timeline
+                  [ ]  Photos and Videos
+                  [ ]  Posts
+                  [ ]  Posts You're Tagged In
+                  [ ]  Search History
+                  [ ]  Spotify
+                  [ ]  Your Events
+                basilelt@Basiles-MacBook-Air facebook-delete % go run deleter.go
+                Waiting 100 ms before search and delete requests.
+                Logged in with user: Basile Le Thiec (profile ID: 100003362832737)
+                ? Which years 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006
+                ? Which months Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec
+                ? Which categories All App Activity, Comments, Event Invitations, Event Responses, Group Posts and Comments, Group Reactions, Instagram Photos and Videos, Likes and Reactions, Others' Posts To Your Timeline, Photos and Videos, Posts, Posts You're Tagged In, Search History, Spotify, Your Events
 
+                Searching elements from 2022:
+                Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec   Elements found:   45     
+                Deleting elements from 2022:
+                45 / 45 [----------------------------------------------------] 100.00% 2 p/s 24s
+                Event Invitations: 1 deleted
+                Group Posts and Comments: 12 deleted
+                Posts: 2 deleted
+                Search History: 29 deleted
+                Total: 44 deleted
+
+                Searching elements from 2021:
+                Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec   Elements found:   53     
+                Deleting elements from 2021:
+                53 / 53 [----------------------------------------------------] 100.00% 1 p/s 40s
+                Group Posts and Comments: 18 deleted
+                Others' Posts To Your Timeline: 2 deleted
+                Posts: 19 deleted
+                Search History: 12 deleted
+                Total: 51 deleted
+
+                Searching elements from 2020:
+                Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec   Elements found:   97     
+                Deleting elements from 2020:
+                97 / 97 [----------------------------------------------------] 100.00% 2 p/s 43s
+                Comments: 10 deleted
+                Event Invitations: 1 deleted
+                Event Responses: 11 deleted
+                Group Posts and Comments: 9 deleted
+                Group Reactions: 12 deleted
+                Likes and Reactions: 41 deleted
+                Others' Posts To Your Timeline: 7 deleted
+                Posts: 3 deleted
+                Total: 94 deleted
+
+                Searching elements from 2019:
+                Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec   Elements found:   571    
+                Deleting elements from 2019:
+                571 / 571 [------------------------------------------------] 100.00% 5 p/s 1m45s
+                Comments: 27 deleted
+                Event Invitations: 3 deleted
+                Event Responses: 29 deleted
+                Group Reactions: 94 deleted
+                Likes and Reactions: 349 deleted
+                Posts: 15 deleted
+                Total: 517 deleted
+            </p>
         </div>
+
+        <article contentEditable></article>
+
+        <footer><a class="github" href="https://github.com/basilelt" target=”_blank”>© BasileLT</a></footer>
     </body>
 </html>
