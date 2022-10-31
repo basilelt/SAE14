@@ -78,24 +78,59 @@ button {
 
 div {
 	margin-top: 26px;
-	margin-left: 25%;
-	margin-right: 25%;
-	overflow: scroll;
-	width: 50%;
-	height: 50vh;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+}
+
+.scroll {
+	overflow-y: scroll;
+	height: 60vh;
 	background-color: rgb(0, 0, 0);
 }
 
 .terminal {
+	margin: 0;
 	display: block;
 	text-align: left;
 	color: rgb(255, 255, 255);
 	font-family: monospace, sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-.user{
-	color: green;
+.user {
+	color: #4e9a06;
+	font-weight: bold;
 }
+
+.folder {
+	color: #32afff;
+}
+
+.cmd {
+	color: #ef2929;
+}
+
+.attribute {
+	color: #fce94f;
+}
+
+.input {
+	color: #34e2e2;
+}
+
+.important {
+	color: #ad7fa8;
+}
+
+.grey {
+	color: #d3d7cf;
+}
+
+
 
 article { flex:1;
 }

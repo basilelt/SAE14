@@ -1,0 +1,42 @@
+Started at 31/10/2022, 15:47:36
+vert
+
+authorId="REDACTED" guildId="REDACTED" channelId="REDACTED" minId="REDACTED" maxId="REDACTED" hasLink=false hasFile=false
+
+Total messages found: 9066	(Messages in current page: 25, To be deleted: 25, System: 0)	offset: 0
+bleu
+
+Delete delay: 1000ms, Search delay: 100ms	Last Ping: 4173ms, Average Ping: 4173ms
+Estimated time remaining: 13h 2m 14s
+Waiting for your confirmation...
+OK
+gris
+
+...
+0.23% (21/9066)	Deleting ID:REDACTED REDACTED (REDACTED): REDACTED	
+0.24% (22/9066)	Deleting ID:REDACTED REDACTED (REDACTED): REDACTED	
+0.25% (23/9066)	Deleting ID:REDACTED REDACTED (REDACTED): REDACTED	REDACTED
+0.26% (24/9066)	Deleting ID:REDACTED REDACTED (REDACTED): REDACTED	
+0.28% (25/9066)	Deleting ID:REDACTED REDACTED (REDACTED): REDACTED	
+
+Searching next messages in 100ms...	
+gris
+
+Total messages found: 9065	(Messages in current page: 21, To be deleted: 21, System: 0)	offset: 0
+bleu
+
+Delete delay: 1000ms, Search delay: 100ms	Last Ping: 1385ms, Average Ping: 668ms
+Estimated time remaining: 4h 12m 39s
+0.29% (26/9066)	Deleting ID:REDACTED REDACTED (REDACTED): REDACTED
+gris
+
+...
+
+Being rate limited by the API for 5915ms! Adjusted delete delay to 5915ms.
+yellow
+
+Delete delay: 5915ms, Search delay: 100ms	Last Ping: 203ms, Average Ping: 347ms
+Cooling down for 11830ms before retrying...
+gris
+
+...
