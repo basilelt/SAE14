@@ -93,6 +93,8 @@ h2 {
 
 .link {
 	color: #DBDBDB;
+	transition: color 200ms;
+  	transform-style: preserve-3d;
 }
 .link:hover {
 	color: #59910F;
@@ -159,9 +161,8 @@ h2 {
 	color: #d3d7cf;
 }
 
-
-
-article { flex:1;
+article { 
+	flex:1;
 }
 
 footer {
