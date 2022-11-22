@@ -87,6 +87,21 @@ div {
 	display: block;
 }
 
+.pictures {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-basis: calc(100% / 3);
+	align-items: center;
+}
+
+.grid {
+	width: calc(100% / 3 - 24px);
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+
 footer {
 	margin: 0;
 	padding-top: 20px;
