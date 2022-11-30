@@ -91,16 +91,75 @@ div {
 	display: inline-flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	flex-basis: calc(100% / 3);
+	flex-basis: calc(100% / 4);
 	align-items: center;
 }
 
 .grid {
-	width: calc(100% / 3 - 24px);
+	width: calc(100% / 4 - 8px);
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size: 22px;
+}
+
+.epfl {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-basis: calc(100% / 3);
+	align-items: center;
+}
+
+.grid2 {
+	width: calc(100% / 6 - 8px);
 	margin-left: 4px;
 	margin-right: 4px;
 }
 
+.textgrid2 {
+	font-size: 22px;
+	width: calc(100% / 6 * 4 - 8px);
+	text-align: center;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.network {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-basis: calc(100% / 2);
+	align-items: center;
+}
+
+.textgrid3 {
+	font-size: 22px;
+	width: calc(30% - 12px);
+	text-align: right;
+	margin-left: 4px;
+	margin-right: 8px;
+}
+
+.right {
+	width: 70%;
+}
+
+.server {
+	width: 100%;
+}
+
+.junk {
+	text-align: center;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+section {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
 
 footer {
 	margin: 0;
